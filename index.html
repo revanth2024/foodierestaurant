@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Foodies Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="mobirise/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js" integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="shortcut icon" href="assets/images/logo.png">
+  </head>
+
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js" integrity="sha512-v/m68W+vaGN/6igoyFpd4GlQzu0jx9/n5gr2PKq5vif+RObyGKHse384YHrOULaxZ810XhlHUrmB3U8UnPB19Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://kit.fontawesome.com/6423bfc008.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white p-0" id="navbar">
+            <div class="container" id="hamburgericon">
+                <a class="navbar-brand m-0" href="#">
+                  <img src="assets/images/logo.png" alt="logo" class="img-fluid w-25">
+                  <span class="logoname">Restaurant</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+                  <li class="nav-item me-4 fw-medium">
+                    <a class="nav-link active text-danger" aria-disabled="true" href="#section1">Home</a>
+                  </li><li class="nav-item me-4 fw-medium">
+                    <a class="nav-link active" aria-disabled="true" href="#section2">Menu</a>
+                  </li><li class="nav-item me-4 fw-medium">
+                    <a class="nav-link active" aria-disabled="true" href="#about">About</a>
+                  </li><li class="nav-item me-4 fw-medium">
+                    <a class="nav-link active" aria-disabled="true" href="#gallery">Gallery</a>
+                  </li><li class="nav-item me-4 fw-medium">
+                    <a class="nav-link active" aria-disabled="true" href="#delivery">Delivery</a>
+                  </li><li class="nav-item  fw-medium">
+                    <a class="nav-link active" aria-disabled="true" href="#footer">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <section class="herosection" id="section1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-easing="ease-in-out">
+                        <h5 class="text-white py-lg-2">Welcome To Our Restaurant</h5>
+                        <h1 class="text-white pb-lg-2" data-aos="zoom-in">No more <span class="text-danger">HUNGRY</span></h1>
+                        <p class="text-white pb-lg-3">Providing food and drink services to guests in hotels and restaurants, showing attentiveness, and understanding of their needs and expectations.</p>
+                        <a href="#"><button class="btn btn-danger" role="button">Order Online</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section2">
+          <div class="container">
+            <div class="foodheading">
+              <h1 class="text-center p-lg-5" data-aos="fade-up">Choose Your Foods</h1>
+            </div>
+            <div class="chooseoption">
+              <input type="checkbox" name="check" id="check" checked class="breakfastinput">
+              <label for="check" class="labelone">Break Fast</label>
+              <input type="checkbox" name="check" id="checktwo">
+              <label for="">Lunch</label>
+              <input type="checkbox" name="check" id="checktwo">
+              <label for="">Snacks</label>
+              <input type="checkbox" name="check" id="checktwo">
+              <label for="">Dinner</label>
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">                  
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-2 text-center">
+                      <img src="assets/images/Ellipse 1.png" alt="" class="img-fluid w-75">
+                      <p class="p-lg-3 p-md-2">Dosa</p>
+                    </div>
+                    <div class="col-2 text-center">
+                      <img src="assets/images/Ellipse 1 (1).png" alt="" class="img-fluid w-75">
+                      <p class="p-lg-3 p-md-2">Idly</p>
+                    </div>
+                    <div class="col-2 text-center">
+                      <img src="assets/images/Ellipse 1 (2).png" alt="" class="img-fluid w-75">
+                      <p class="p-lg-3 p-md-2">Pongal</p>
+                    </div>
+                    <div class="col-2 text-center">
+                      <img src="assets/images/Ellipse 1 (3).png" alt="" class="img-fluid w-75">
+                      <p class="p-lg-3 p-md-2">Paratha</p>
+                    </div>             
+                    <div class="col-2 text-center align-center">
+                      <img src="assets/images/Ellipse 1 (4).png" alt="" class="img-fluid w-75">
+                      <p class="p-lg-3 p-md-2">pasta</p>
+                    </div> 
+                    <div class="col-2 text-center">
+                      <img src="assets/images/Ellipse 1 (1).png" alt="" class="img-fluid w-75">
+                      <p class="p-lg-3 p-md-2">Idly</p>
+                    </div>                                
+                  </div>
+                  </div>
+                  <div class="carousel-item" >
+                    <div class="row">
+                      <div class="col-2 text-center">
+                        <img src="assets/images/Ellipse 1 (4).png" alt="" class="img-fluid w-75">
+                        <p class="p-lg-3 p-md-2">pasta</p>
+                      </div>
+                      <div class="col-2 text-center">
+                        <img src="assets/images/Ellipse 1 (1).png" alt="" class="img-fluid w-75">
+                        <p class="p-lg-3 p-md-2">Idly</p>
+                      </div>
+                      <div class="col-2 text-center">
+                        <img src="assets/images/Ellipse 1 (2).png" alt="" class="img-fluid w-75">
+                        <p class="p-lg-3 p-md-2">Pongal</p>
+                      </div>
+                      <div class="col-2 text-center">
+                        <img src="assets/images/Ellipse 1 (3).png" alt="" class="img-fluid w-75">
+                        <p class="p-lg-3 p-md-2">Paratha</p>
+                      </div>
+                      <div class="col-2 text-center">
+                        <img src="assets/images/Ellipse 1 (1).png" alt="" class="img-fluid w-75">
+                        <p class="p-lg-3 p-md-2">Idly</p>
+                      </div>
+                      <div class="col-2 text-center align-center">
+                        <img src="assets/images/Ellipse 1 (4).png" alt="" class="img-fluid w-75">
+                        <p class="p-lg-3 p-md-2">pasta</p>
+                      </div>                                                                    
+                    </div>
+                  </div>                 
+                </div>
+                <button class="carousel-control-prev" role="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true">
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                  </span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" role="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>         
+            </div>
+        </section>
+
+        <section class="py-lg-5">
+          <div class="container">
+            <div class="chooseoption">
+              <input type="checkbox" name="" id="check">
+              <label for="">Break Fast</label>
+              <input type="checkbox" name="lunch" id="checktwo" checked class="lunchinput">
+              <label for="lunch"  class="labelone">Lunch</label>
+              <input type="checkbox" name="check" id="checktwo">
+              <label for="">Snacks</label>
+              <input type="checkbox" name=" check" id="checktwo">
+              <label for="">Dinner</label>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">                  
+                <div class="carousel-item active"  data-bs-interval="10000">
+                  <div class="row">
+                    <div class="col-2 text-center align-items-center">
+                      <img src="assets/images/Ellipse 1 (5).png" alt="" class="img-fluid w-75">
+                      <p class="p-lg-3 p-md-2">Briyani</p>
+                    </div>
+                    <div class="col-2 text-center">
+                      <img src="assets/images/Ellipse 1 (6).png" alt="" class="img-fluid w-75">
+                      <p class="p-lg-3 p-md-2">BBQ</p>
+                    </div>
+                    <div class="col-2 text-center">
+                      <img src="assets/images/Ellipse 1 (7).png" alt="" class="img-fluid w-75">
+                      <p class="p-lg-3 p-md-2">Chicken</p>
+                    </div>
+                    <div class="col-2 text-center">
+                      <img src="assets/images/Ellipse 1 (8).png" alt="" class="img-fluid w-75">
+                      <p class="p-lg-3 p-md-2">Crab</p>
+                    </div>             
+                    <div class="col-2 text-center align-center">
+                      <img src="assets/images/Ellipse 1 (9).png" alt="" class="img-fluid w-75">
+                      <p class="p-lg-3 p-md-2">Noodles</p>
+                    </div> 
+                    <div class="col-2 text-center">
+                      <img src="assets/images/Ellipse 1 (5).png" alt="" class="img-fluid w-75">
+                      <p class="p-lg-3 p-md-2">Briyani</p>
+                    </div>                                
+                  </div>
+                  </div>
+                  <div class="carousel-item"  data-bs-interval="10000">
+                    <div class="row">
+                      <div class="col-2 text-center">
+                        <img src="assets/images/Ellipse 1 (9).png" alt="" class="img-fluid w-75">
+                        <p class="p-lg-3 p-md-2">Noodles</p>
+                      </div>
+                      <div class="col-2 text-center">
+                        <img src="assets/images/Ellipse 1 (8).png" alt="" class="img-fluid w-75">
+                        <p class="p-lg-3 p-md-2">Crab</p>
+                      </div>
+                      <div class="col-2 text-center">
+                        <img src="assets/images/Ellipse 1 (7).png" alt="" class="img-fluid w-75">
+                        <p class="p-lg-3 p-md-2">Chicken</p>
+                      </div>
+                      <div class="col-2 text-center">
+                        <img src="assets/images/Ellipse 1 (6).png" alt="" class="img-fluid w-75">
+                        <p class="p-lg-3 p-md-2">BBQ</p>
+                      </div>
+                      <div class="col-2 text-center">
+                        <img src="assets/images/Ellipse 1 (8).png" alt="" class="img-fluid w-75">
+                        <p class="p-lg-3 p-md-2">Crab</p>
+                      </div>
+                      <div class="col-2 text-center align-center">
+                        <img src="assets/images/Ellipse 1 (7).png" alt="" class="img-fluid w-75">
+                        <p class="p-lg-3 p-md-2">Chicken </p>
+                      </div>                                                                    
+                    </div>
+                  </div>                 
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true">
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                  </span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div> 
+          </div>
+        </section>
+
+        <section class="about py-lg-5" id="about">
+          <div class="container">
+            <div class="row py-5">
+              <div class="col-lg-6 col-md-6 text-center" data-aos="fade-right">
+                <img src="assets/images/Group 35.png" alt="" class="img-fluid" id="aboutimg">
+              </div>
+              <div class="col-lg-6 col-md-6" id="aboutheading">
+                <h1 data-aos="flip-up">Amazing Meals</h1>
+                <ul  data-aos="zoom-in">
+                  <li class="pt-lg-4">For a memorable meal the quality of the service is something that guests often remember as much as the food and drink served.</li>
+                  <li class="pt-lg-3">That means that restaurant servers must show extensive knowledge of all types of cuisine and dishes, especially the ingredients and cooking style of the dishes on an a la carte menu.</li>
+                  <li class="pt-lg-3">They will need to know and understand the methods of preparation and serving, along with the tools used.</li>
+                  <li class="pt-lg-3">That means that restaurant servers must show extensive knowledge of all types of cuisine and dishes, especially the ingredients and cooking style of the dishes on an a la carte menu.</li>
+                  <li class="pt-lg-3">That means that restaurant servers must show extensive knowledge  of cuisine and dishes, especially the ingredients and cooking style of the dishes on an a la carte menu.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="giftvoucher" data-aos="zoom-in-down">
+          <div class="container">
+            <div class="row align-items-center justify-content-center mx-auto w-75 position-relative" id="vouchermain">
+              <div class="col-lg-6 align-items-center" id="offercontent">                                  
+                    <div>
+                        <div class="d-flex align-items-center">
+                          <h5>Get  Upto OFF</h5>
+                          <span><h1> 50% </h1></span>
+                        </div>    
+                        <div>
+                          <h5>Dinning Deals & Card Holders</h5>
+                        </div>              
+                        <div>
+                          <button class="btn btn-danger mt-3" id="offerbutton">Check Out</button>
+                        </div>             
+                    </div>
+                </div>
+                
+                <div class="col-6 p-0 py-lg-5" id="giftimage">
+                  <img src="assets/images/image 4.png" alt="" class="img-fluid">
+                </div>
+              <div class="text-center position-absolute" id="giftimage">
+                <img src="assets/images/Group 39.png" alt="" class="img-fluid" id="voucherimage">
+              </div>
+            </div>           
+          </div>
+        </section>
+
+        <section class="gallerybg" id="gallery">
+          <div class="container">
+            <div class="galleryheading p-5">
+              <h1 class="text-center">Our most popular recipes</h1>
+            </div>
+            <div class="row pb-lg-5 justify-content-center align-items-center">
+              <div class="col-lg-3 text-center">
+                <div class="overflow-hidden" >
+                  <img src="assets/images/Rectangle 11.png" alt="" class="img-fluid mb-5"  data-aos="fade-right">
+                  <img src="assets/images/Rectangle 12.png" alt="" class="img-fluid mb-5"  data-aos="fade-right">
+                </div>
+              </div>
+              <div class="col-lg-4 text-center mb-5 overflow-hidden" data-aos="zoom-in-up">
+                <img src="assets/images/Rectangle 15.png" alt="" class="img-fluid" id="gallerycenterimage">
+              </div>
+              <div class="col-lg-3 text-center">
+                <div class="overflow-hidden">
+                  <img src="assets/images/Rectangle 13.png" alt="" class="img-fluid mb-5" data-aos="fade-left">
+                  <img src="assets/images/Rectangle 14.png" alt="" class="img-fluid mb-5" data-aos="fade-left">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container">
+            <div class="menuheading p-5" data-aos="zoom-in">
+              <h1 class="text-center">Menu of drinks</h1>
+            </div>
+              <div class="row py-lg-5 align-items-center">
+                <div class="col-lg-6" data-aos="zoom-out-right">
+                  <img src="assets/images/image 6.png" alt="" class="img-fluid w-100" id="menuimg">
+                </div>
+                <div class="col-lg-6">
+                  <div class="row align-items-center" data-aos="zoom-in">
+                    <div class="col-3 text-center">
+                      <img src="assets/images/Ellipse 4.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-9">
+                      <h3 class="">Carrot juice</h3>
+                      <p>oxygenating your blood, ,mind and body tissues</p>                        
+                    </div>
+                  </div> 
+                  <hr>   
+                  <div class="row align-items-center" data-aos="zoom-in">
+                    <div class="col-3 text-center">
+                      <img src="assets/images/Ellipse 4 (1).png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-9">
+                      <h3 class="">Black Grape Juice</h3>
+                      <p>Preventing the danger of diabetes and supporting</p>                        
+                    </div>
+                  </div> 
+                  <hr> 
+                  <div class="row align-items-center" data-aos="zoom-in">
+                    <div class="col-3 text-center">
+                      <img src="assets/images/Ellipse 4 (2).png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-9">
+                      <h3 class="">Orange Juice</h3>
+                      <p>Best organic juices good for skin</p>                        
+                    </div>
+                  </div> 
+                  <hr> 
+                  <div class="row align-items-center" data-aos="zoom-in">
+                    <div class="col-3 text-center">
+                      <img src="assets/images/Ellipse 5.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-9">
+                      <h3 class="">Watermelon juice</h3>
+                      <p>Healthy fruit juice perfect for the hot summer months.</p>                        
+                    </div>
+                  </div> 
+                  <hr> 
+                  <div class="row align-items-center" data-aos="zoom-in">
+                    <div class="col-3 text-center">
+                      <img src="assets/images/Ellipse 4 (3).png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-9">
+                      <h3 class="">Kale Juice</h3>
+                      <p>Pineapple juices are wonderfully sweet to taste</p>                        
+                    </div>
+                  </div> 
+                  <hr>               
+                </div>           
+            </div>
+          </div>
+        </section>
+
+        <section class="deliverybg">
+          <div class="container">
+            <div class="row py-5 align-items-center">
+              <div class="col-lg-6 text-center" data-aos="zoom-out-right">
+                <img src="assets/images/image 7.png" alt="" class="w-75" id="orderimg">
+              </div>
+              <div class="col-lg-5" data-aos="fade-left">
+                <h3 class="">Get delivered on time</h3>
+                <p class="ordercontent">The customers can place online orders forcollection or delivery from your restaurant /takeaway. Accept card payments online beforecollection or in-person payments at your store.Set up multiple delivery zones with fees accordingto the driving distance.The customers can place online orders forcollection or delivery from your restaurant /takeaway.</p>
+                <button class="btn btn-danger" id="buttonbox">Book Your Order</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact" id="delivery">
+          <div class="container">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-7 order-1">
+                <div class="p-lg-5">
+                  <h3>Contact Us</h3>
+                  <p>Eat Your Foods just how you like it.Ready To Serve Hot Food For Your Hungry Customers? Discover through foodies restaurant
+                    Foods just how you like it.Ready To Serve Hot Food For Your Hungry Customers? Discover through foodies restaurant.
+                  </p>
+                  <div class="row py-lg-5">
+                    <div class="col-1">
+                      <box-icon type='solid' name='user'></box-icon>
+                    </div>
+                    <div class="col-11">
+                      <p>91+ 8056812955</p>
+                    </div>
+                    <div class="col-1">
+                      <box-icon type='solid' name='map'></box-icon>
+                    </div>
+                    <div class="col-11">
+                      <p>5A kumaran colony,
+                        chennai-600003</p>
+                    </div>
+                    <div class="col-1">
+                      <box-icon type='solid' name='envelope'></box-icon>
+                    </div>
+                    <div class="col-11">
+                      <p>foodies27@gmail.com</p>
+                    </div>                    
+                  </div>               
+                </div>                 
+              </div>
+              
+              <div class="col-lg-4 py-4 order-2" data-aos="zoom-in-down">
+                <form action="#" class="rounded border border-dark my-lg-5">
+                  <div class="d-flex justify-content-center align-items-center my-lg-5">
+                    <h5 class="loginpart">Log In</h5>
+                    <h5 class="signup">Sign Up</h5>
+                  </div>
+                  <div class="text-center">
+                    <input type="text" name="" id="" placeholder="User ID" class="userid"><br>
+                    <input type="password" name="" id="" placeholder="Password" class="password"><br>
+                  </div>               
+                  <div class="text-center">
+                    <button class="btn btn-danger my-5 w-50">Log In</button>
+                  </div>                  
+                </form>                
+              </div>
+            </div>
+          </div>
+        </section>      
+    </main>
+
+  
+    <footer class="bg-secondary" id="footer">
+      <div class="container">
+        <div class="row py-lg-4">
+          <div class="col-lg-4">
+            <img src="assets/images/footerlogo.png" alt="" class="img-fluid">
+            <p class="text-white w-75">Eat your foods just how you like it.Ready To Serve Hot Food For Your Hungry Customers.Ready To Serve Hot Food For Your Hungry Customers.</p>
+          </div>
+          <div class="col-lg-2 mt-lg-5">
+            <h4 class="text-white">Quick links</h4>
+            <p class="text-white pt-3">About</p>
+            <p class="text-white">FAQ</p>
+            <p class="text-white">Help</p>
+            <p class="text-white">Sign in</p>
+          </div>
+          <div class="col-lg-2 mt-lg-5">
+            <h4 class="text-white">Support</h4>
+            <p class="text-white pt-3">Contact us</p>
+            <p class="text-white">Help center</p>
+            <p class="text-white">Privacy policy</p>
+            <p class="text-white">Terms of condition</p>
+          </div>
+          <div class="col-lg-2 mt-lg-5">
+            <h4 class="text-white">Bento box</h4>
+            <p class="text-white pt-3">Feedback</p>
+            <p class="text-white">Careers</p>
+            <p class="text-white">Customer stories</p>
+            <p class="text-white">Platform status</p>
+          </div>
+          <div class="col-lg-2 mt-lg-5">
+            <h4 class="text-white">Opening Hours</h4>
+            <p class="text-white pt-3">Monday: 10am -10pm</p>
+            <p class="text-white">Tuesday: 10am -10pm</p>
+            <p class="text-white">Wednesday:10am-10p</p>
+            <p class="text-white">Thursday: 10am -10pm</p>
+            <p class="text-white">Friday: 10am -10pm</p>
+          </div>
+        </div>
+        <hr class="text-white">
+        <div class="row align-items-center">
+          <div class="col-lg-6 py-lg-3">
+            <p class="text-white m-0">©  2023  copyrights foodies restaurant</p>
+          </div>
+          <div class="col-lg-6 text-lg-end py-3">
+            <i class="fa-brands fa-facebook fa-xl me-2" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-pinterest fa-xl me-2" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-youtube fa-xl me-2" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-instagram fa-xl me-2" style="color: #ffffff;"></i> 
+            <i class="fa-brands fa-twitter fa-xl" style="color: #f5f5f5;"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+
+</html>

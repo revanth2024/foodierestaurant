@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Jost:wght@400;500&family=Poppins:wght@400;500;600&family=Roboto:wght@500&family=Rubik:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Jost:wght@400;500&family=Mochiy+Pop+One&family=Poppins:wght@100;200;400;500;600&family=Roboto:wght@500&family=Rubik:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Jost:wght@400;500&family=Mochiy+Pop+One&family=Poppins:wght@400;500;600&family=Roboto:wght@500&family=Rubik:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 95% !important;
+}
+#navbarScroll a{
+    font-family: rubik;
+    font-weight: 400;
+    cursor: pointer;
+}
+#navbarScroll a:hover{
+    color: #FF0000;
+    transition: ease 1s;
+}
+#navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9;
+    box-shadow: 1px 1px 10px grey;
+}
+.logoname{
+    font-family: mochiy pop one;
+}
+.herosection{
+    background-image: url(assets/images/banner.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+.herosection h5{
+    font-family: poppins;
+}
+.btn{
+    background-color: #F83636 !important;
+    font-family:poppins !important;
+    font-weight: 400 !important;
+}
+.herosection h1{
+    font-size: 60px;
+    font-family: poppins;
+}
+.herosection h5{
+    font-size: 25px;
+}
+.herosection p{
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 300;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    
+}
+.carousel-control-prev-icon{
+    position: absolute;
+    left: -8%;
+    bottom: 60%;
+}
+.carousel-control-next-icon{
+    position: absolute;
+    right: -8%;
+    bottom: 60%;
+}
+.chooseoption{
+    padding: 0px 0px 40px 50px ;
+}
+#checktwo{
+    margin-left: 20px;
+}
+.breakfastinput,.lunchinput{
+    accent-color: red;
+}
+input{
+    box-shadow: 1px 1px 3px grey;
+    height: 20px;
+    width: 20px;
+}
+label{
+    font-size: 25px;
+}
+.foodheading h1{
+    color: #FF0000;
+}
+.labelone{
+    color: #FF0000;
+}
+#aboutheading h1{
+    color: #FF0000;
+}
+#aboutheading ul li{
+    font-size: 20px;
+    font-weight: 300;
+    font-family:poppins;
+    color: black;
+}
+.about{
+    background-color: #f5f5f5;
+}
+#offercontent{
+    border: 1px solid rgba(39, 39, 39, 40%);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgba(222, 222, 222, 0.568);
+    height: 262px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#voucherimage{
+    width: 20%;
+}
+.galleryheading h1{
+    color: #FF0000;
+}
+.giftvoucher h1{
+    color: #FF0000;
+    font-weight: 700;
+}
+.gallerybg{
+    background-color: #f5f5f5;
+}
+.gallerybg img:hover{
+    transform: scale(1.1);
+    transition: ease-in;
+    transition-duration: 1s; 
+    transition-delay: 0s;
+    transition-timing-function: ease;
+}
+#gallerycenterimage{
+    width:87% !important;
+}
+.menuheading h1{
+    color: #FF0000;
+}
+.ordercontent{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: poppins;
+    color: black;
+}
+.deliverybg{
+    background-color: #f5f5f5;
+}
+#buttonbox{
+    border-radius: 50px;
+    border: none;
+    padding: 8px 25px;
+}
+#offerbutton{
+    border-radius: 50px;
+    border: none;
+}
+.userid ,.password{
+    margin: 20px 0px;
+    padding: 20px 0px;
+    width: 300px;
+    border: none;
+    outline-style: none;
+    box-shadow: none;
+    border-bottom: 2px solid black;
+}
+::placeholder:focus{
+    color: black;
+}
+.loginpart{
+    border: 2px solid;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: grey;
+    color: white;
+    margin-right: -20px;
+}
+.signup{
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    padding: 8px 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.contact p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: poppins;
+    color: black;
+}
+#footer p{
+    font-family: poppins;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:575px){
+    #hamburgericon{
+        overflow: hidden;
+    }
+    .herosection{
+        height: 400px;
+    }
+    .herosection h5{
+        font-size: 17px;
+    }
+    .herosection h1{
+        font-size: 30px;
+    }
+    .herosection p{
+        line-height: normal;
+        font-size: 14px;
+    }
+    .chooseoption{
+        padding: 0px !important;
+    }
+    #checktwo{
+        margin: 0px;
+    }
+    label{
+        font-size: 16px;
+    }
+    input{
+        height: 10px;
+        width: 10px;
+    }
+    #aboutheading ul li{
+        font-size: 14px;
+    }
+    #offercontent{
+        height: 175px;
+        border-radius: 10px;
+    }
+    #vouchermain{
+        width: 100% !important;
+    }
+    #giftimage{
+        display: none;
+    }
+    .ordercontent{
+        font-size:12px;
+    }
+    .contact p{
+        font-size: 12px;
+    }
+    #hamburgericon{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+}
+
+@media screen and (min-width:1367px) {
+    #aboutimg{
+        max-width: 60%;
+    }
+    #offercontent{
+        height: 373px;
+    }
+    #menuimg{
+        width: 75% !important;
+    }
+    #orderimg{
+        width: 50% !important;
+    }
+    
+}
